@@ -19,7 +19,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         <a href="/pages/about.php" class="<?= ($current_page == 'about.php') ? 'active' : '' ?>">About</a>
 
-        <a href="/pages/services.php" class="<?= ($current_page == 'services.php') ? 'active' : '' ?>">Products</a>
+        <a href="/pages/products.php" class="<?= ($current_page == 'products.php') ? 'active' : '' ?>">Products</a>
 
         <a href="/pages/news.php" class="<?= ($current_page == 'news.php') ? 'active' : '' ?>">News</a>
 

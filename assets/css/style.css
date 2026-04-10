@@ -267,6 +267,57 @@ background:#cc3333;
 opacity:0.9;
 }
 
+.hero{
+background:#0077b6;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.card-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+text-decoration:none;
+color:black;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.card h3{
+margin:10px;
+}
+
+.card p{
+margin:10px;
+font-size:14px;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.btn{
+background:#0077b6;
+color:white;
+padding:10px 15px;
+text-decoration:none;
+border-radius:5px;
+}
+
 
 /* Mobile responsiveness */
 @media(max-width:768px) {

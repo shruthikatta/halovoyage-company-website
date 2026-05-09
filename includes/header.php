@@ -1,4 +1,7 @@
 <?php
+require_once __DIR__ . '/marketplace_partner_visit.php';
+marketplace_partner_report_visit_to_hub();
+
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 

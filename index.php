@@ -9,19 +9,19 @@
 
 <div class="card-container">
 
-<div class="card">
+<div class="card" id="hv-paris">
 <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34">
 <h3>Paris</h3>
 <p>The city of love, culture, and iconic landmarks.</p>
 </div>
 
-<div class="card">
+<div class="card" id="hv-bali">
 <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4">
 <h3>Bali</h3>
 <p>Relax on tropical beaches and explore lush jungles.</p>
 </div>
 
-<div class="card">
+<div class="card" id="hv-tokyo">
 <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c">
 <h3>Tokyo</h3>
 <p>A vibrant mix of futuristic technology and tradition.</p>
